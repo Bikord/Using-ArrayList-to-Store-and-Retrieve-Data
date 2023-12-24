@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        // Creating an ArrayList of Strings
+        ArrayList<String> colors = new ArrayList<>();
+
+        // Adding elements to the ArrayList
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+
+        // Accessing elements by index
+        System.out.println("First color: " + colors.get(0));
+
+        // Iterating through the ArrayList
+        System.out.println("All colors:");
+        for (String color : colors) {
+            System.out.println(color);
+        }
+    }
+}
